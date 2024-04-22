@@ -1,0 +1,45 @@
+Functions in JS:
+-Functions in JS are first class citizens
+-It means you can 
+-create a function,
+-modify a function,
+-Use function as an argument,
+-You can return a function as a function,
+-You can assign a function to a variable.
+
+
+
+Execution Context:
+-Everything in JavaScript happens in Execution Context.
+It provides memory and code component to execute the code.
+
+
+Callstack:
+-A stack that manages all the operations in Execution Context is Callstack.
+It stores Global Execution Context in the bottom followed by next execution context till the 
+code is executed thoroughly.
+
+
+What is Hoisting:
+-Hoisting is a phenomena in JS in which we can access variables and functions even 
+before initializing them or without putting any value to it.
+
+
+Window:
+-It is a global object which is created along with the global Execution context.
+
+Global Space:
+-Any code written in javascript which which is not inside a function is in Global space.
+
+What is a SCOPE?
+-It means where you can access a specific variable or a function in a code.
+-It is directly dependent on lexical environment\
+
+What is Lexical Environment?
+-Lexical environment is a local memory along with the lexical environment of its parent.
+-Lexical means in a sequence.
+-When an Execution context is created, a lexical environmemt is created.
+
+What is a SCOPE CHAIN?
+-The local memory and the lexical environment
+
